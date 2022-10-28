@@ -29,7 +29,6 @@ public class PlayerMonster extends BattleMonster {
             }
         }
         System.out.println();
-        scanner.close();
         return skillIndex;
     }
 
