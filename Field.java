@@ -57,7 +57,6 @@ public class Field {
 
     private int commandSelectPhase(IBattleMonster command){
         // 今はコマンドが「攻撃のみ」なので、戻り値がintでif文がない
-        command.skillListOutput();
         return command.skillSelect();
     }
 

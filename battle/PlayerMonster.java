@@ -20,15 +20,19 @@ public class PlayerMonster extends BattleMonster {
         int skillIndex;
         while (true){
             try {
+                this.skillListOutput();
                 System.out.print("技を選べ > ");
-                skillIndex =  scanner.nextInt();
+                skillIndex = Integer.parseInt(scanner.nextLine());
                 if(!(0 <= skillIndex && skillIndex <= skillMaxIndex)) throw new InputMismatchException(String.format("0 ~ %d の範囲で入力してください\n",  skillMaxIndex));
                 break;
             }catch (InputMismatchException e){
                 System.out.println(e.getMessage());
+            }catch (NumberFormatException ignored){
+
+            }finally {
+                System.out.print("\n");
             }
         }
-        System.out.println();
         return skillIndex;
     }
 

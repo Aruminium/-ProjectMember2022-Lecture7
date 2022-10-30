@@ -23,11 +23,15 @@ public class Main {
             try {
                 MonsterCreator.viewMonsterList();
                 System.out.print("オー○ド博士「ここに三匹のMonsterがおるじゃろ？好きなのを一匹選ぶんじゃ」 > ");
-                playerMonsterId = scanner.nextInt();
-                if(!(monsterMinId <= playerMonsterId && playerMonsterId <= monsterMaxId)) throw new InputMismatchException(String.format("%d ~ %d の範囲で入力してください", monsterMinId, monsterMaxId));
+                playerMonsterId = Integer.parseInt(scanner.nextLine());
+                if(!(monsterMinId <= playerMonsterId && playerMonsterId <= monsterMaxId)) throw new InputMismatchException("オー○ド博士「他にMonsterはいないぞ？」");
                 break;
-            }catch (InputMismatchException e){
+            }catch (InputMismatchException e) {
                 System.out.println(e.getMessage());
+            }catch (NumberFormatException ignored){
+
+            }finally {
+                System.out.print("\n");
             }
         }
         return playerMonsterId;

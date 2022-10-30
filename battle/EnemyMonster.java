@@ -25,7 +25,7 @@ public class EnemyMonster extends BattleMonster {
 
     @Override
     public final void skillListOutput(){
-        System.out.println();
+        System.out.print("\n");
     }
 
     @Override
