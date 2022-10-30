@@ -23,7 +23,7 @@ public class PlayerMonster extends BattleMonster {
                 this.skillListOutput();
                 System.out.print("技を選べ > ");
                 skillIndex = Integer.parseInt(scanner.nextLine());
-                if(!(0 <= skillIndex && skillIndex <= skillMaxIndex)) throw new InputMismatchException(String.format("0 ~ %d の範囲で入力してください\n",  skillMaxIndex));
+                if(!(0 <= skillIndex && skillIndex <= skillMaxIndex)) throw new InputMismatchException(String.format("0 ~ %d の範囲で入力してください",  skillMaxIndex));
                 break;
             }catch (InputMismatchException e){
                 System.out.println(e.getMessage());
