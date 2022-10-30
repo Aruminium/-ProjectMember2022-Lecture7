@@ -6,6 +6,7 @@ import java.util.List;
 public interface IMonster {
     String getName();
     HP getHP();
+    void setHP(int hp);
     int getPower();
     int getDefense();
     int getSpeed();

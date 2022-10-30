@@ -1,7 +1,7 @@
 package monster;
 
 public class HP {
-    private int hp;
+    private final int hp;
 
     // マジックナンバーを避け、瀕死の値を表す定数を用意する
     private static final int dead = 0;
@@ -18,9 +18,4 @@ public class HP {
     public int getHP(){
         return hp;
     }
-
-    public void setHp(final int hp){
-        this.hp = hp;
-    }
-
 }

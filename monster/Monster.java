@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Monster implements IMonster{
     private final String name;
-    private final HP hp;
+    private HP hp;
     private final int power;
     private final int defense;
     private final int speed;
@@ -41,6 +41,11 @@ public class Monster implements IMonster{
     @Override
     public final HP getHP(){
         return hp;
+    }
+
+    @Override
+    public final void setHP(int hp){
+        this.hp = new HP(hp);
     }
 
     @Override
