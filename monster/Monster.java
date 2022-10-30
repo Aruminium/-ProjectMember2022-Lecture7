@@ -26,7 +26,7 @@ public class Monster implements IMonster{
 
     protected Monster(IMonster monster){
         this.name = monster.getName();
-        this.hp = monster.getHP();
+        this.hp = new HP(monster.getHP());
         this.power = monster.getPower();
         this.defense = monster.getDefense();
         this.speed = monster.getSpeed();
@@ -39,8 +39,8 @@ public class Monster implements IMonster{
     }
 
     @Override
-    public final HP getHP(){
-        return hp;
+    public final int getHP(){
+        return hp.getHP();
     }
 
     @Override
@@ -71,15 +71,5 @@ public class Monster implements IMonster{
     @Override
     public final boolean isAlive(){
         return hp.isAlive();
-    }
-
-    @Override
-    public final void viewSkillList(){
-        int index = 0;
-        for (Skill skill: skills){
-            System.out.printf("%d -> %s (power: %d)\n", index, skill.getName(), skill.getPower());
-            index++;
-        }
-        System.out.println();
     }
 }

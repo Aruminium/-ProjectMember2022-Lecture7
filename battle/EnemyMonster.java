@@ -20,7 +20,7 @@ public class EnemyMonster extends BattleMonster {
 
     @Override
     public final void remainHpOutput(){
-        System.out.printf("野生の %s のHP: %d\n", this.getName(), this.getHP().getHP());
+        System.out.printf("野生の %s のHP: %d\n", this.getName(), this.getHP());
     }
 
     @Override

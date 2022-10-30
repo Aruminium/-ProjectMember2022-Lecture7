@@ -21,7 +21,7 @@ public abstract class BattleMonster extends Monster implements IBattleMonster{
     }
 
     protected void receiveDamage(int damage, IMonster opponent){
-        int HP = opponent.getHP().getHP();
+        int HP = opponent.getHP();
         int remainHP = HP - damage;
         if(remainHP < 0) remainHP = 0;
         opponent.setHP(remainHP);

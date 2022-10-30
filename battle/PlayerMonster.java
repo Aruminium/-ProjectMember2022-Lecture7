@@ -39,7 +39,7 @@ public class PlayerMonster extends BattleMonster {
 
     @Override
     public final void remainHpOutput(){
-        System.out.printf("プレイヤーの %s のHP: %d\n", this.getName(), this.getHP().getHP());
+        System.out.printf("プレイヤーの %s のHP: %d\n", this.getName(), this.getHP());
     }
 
     @Override
