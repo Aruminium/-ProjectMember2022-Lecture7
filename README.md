@@ -16,87 +16,120 @@
 1 -> MONKEY
 2 -> PENGUIN
 3 -> TURTLE
-オー○ド博士「ここに三匹のMonsterがおるじゃろ？好きなのを一匹選ぶんじゃ」 >  1
-あ! 野生の Monkey が飛び出してきた！
-ゆけっ！ Monkey！
+オー○ド博士「ここに三匹のMonsterがおるじゃろ？好きなのを一匹選ぶんじゃ」 > a
+
+1 -> MONKEY
+2 -> PENGUIN
+3 -> TURTLE
+オー○ド博士「ここに三匹のMonsterがおるじゃろ？好きなのを一匹選ぶんじゃ」 > 9
+オー○ド博士「他にMonsterはいないぞ？」
+
+1 -> MONKEY
+2 -> PENGUIN
+3 -> TURTLE
+オー○ド博士「ここに三匹のMonsterがおるじゃろ？好きなのを一匹選ぶんじゃ」 > 2
+
+あ! 野生の Penguin が飛び出してきた！
+ゆけっ！ Penguin！
 
 -------------
-プレイヤーのMonkeyのHP: 44
-野生のMonkeyのHP: 44
+プレイヤーの Penguin のHP: 53
+野生の Penguin のHP: 53
 
-0 -> scratch (power: 10)
+0 -> peck (power: 15)
 1 -> tackle (power: 10)
-2 -> ember (power: 10)
-技を選べ > 2
+2 -> bubble (power: 10)
+技を選べ > 9
+0 ~ 2 の範囲で入力してください
 
+0 -> peck (power: 15)
+1 -> tackle (power: 10)
+2 -> bubble (power: 10)
+技を選べ > a
 
-プレイヤーの Monkey の攻撃！
-Monkey は ember を繰り出した
-Monkey に 13 のダメージ！ (HP 44 -> 31)
+0 -> peck (power: 15)
+1 -> tackle (power: 10)
+2 -> bubble (power: 10)
+技を選べ > 1
 
+プレイヤーの Penguin の攻撃！
+Penguin は tackle を繰り出した
+Penguin に 9 のダメージ！ (HP 53 -> 44)
 
-野生の Monkey の攻撃！
-Monkey は tackle を繰り出した
-Monkey に 13 のダメージ！ (HP 44 -> 31)
-
+野生の Penguin の攻撃！
+Penguin は tackle を繰り出した
+Penguin に 9 のダメージ！ (HP 53 -> 44)
 
 -------------
-プレイヤーのMonkeyのHP: 31
-野生のMonkeyのHP: 31
+プレイヤーの Penguin のHP: 44
+野生の Penguin のHP: 44
 
-0 -> scratch (power: 10)
+0 -> peck (power: 15)
 1 -> tackle (power: 10)
-2 -> ember (power: 10)
-技を選べ > 2
+2 -> bubble (power: 10)
+技を選べ > 1
 
+プレイヤーの Penguin の攻撃！
+Penguin は tackle を繰り出した
+Penguin に 9 のダメージ！ (HP 44 -> 35)
 
-プレイヤーの Monkey の攻撃！
-Monkey は ember を繰り出した
-Monkey に 13 のダメージ！ (HP 31 -> 18)
-
-
-野生の Monkey の攻撃！
-Monkey は scratch を繰り出した
-Monkey に 13 のダメージ！ (HP 31 -> 18)
-
+野生の Penguin の攻撃！
+Penguin は bubble を繰り出した
+Penguin に 9 のダメージ！ (HP 44 -> 35)
 
 -------------
-プレイヤーのMonkeyのHP: 18
-野生のMonkeyのHP: 18
+プレイヤーの Penguin のHP: 35
+野生の Penguin のHP: 35
 
-0 -> scratch (power: 10)
+0 -> peck (power: 15)
 1 -> tackle (power: 10)
-2 -> ember (power: 10)
-技を選べ > 2
+2 -> bubble (power: 10)
+技を選べ > 1
 
+プレイヤーの Penguin の攻撃！
+Penguin は tackle を繰り出した
+Penguin に 9 のダメージ！ (HP 35 -> 26)
 
-プレイヤーの Monkey の攻撃！
-Monkey は ember を繰り出した
-Monkey に 13 のダメージ！ (HP 18 -> 5)
-
-
-野生の Monkey の攻撃！
-Monkey は ember を繰り出した
-Monkey に 13 のダメージ！ (HP 18 -> 5)
-
+野生の Penguin の攻撃！
+Penguin は peck を繰り出した
+Penguin に 14 のダメージ！ (HP 35 -> 21)
 
 -------------
-プレイヤーのMonkeyのHP: 5
-野生のMonkeyのHP: 5
+プレイヤーの Penguin のHP: 21
+野生の Penguin のHP: 26
 
-0 -> scratch (power: 10)
+0 -> peck (power: 15)
 1 -> tackle (power: 10)
-2 -> ember (power: 10)
-技を選べ > 2
+2 -> bubble (power: 10)
+技を選べ > 1
 
+プレイヤーの Penguin の攻撃！
+Penguin は tackle を繰り出した
+Penguin に 9 のダメージ！ (HP 26 -> 17)
 
-プレイヤーの Monkey の攻撃！
-Monkey は ember を繰り出した
-Monkey に 13 のダメージ！ (HP 5 -> 0)
+野生の Penguin の攻撃！
+Penguin は peck を繰り出した
+Penguin に 14 のダメージ！ (HP 21 -> 7)
 
+-------------
+プレイヤーの Penguin のHP: 7
+野生の Penguin のHP: 17
 
-野生の Monkey は倒れた！
-プレイヤーの Monkey の勝ち！
+0 -> peck (power: 15)
+1 -> tackle (power: 10)
+2 -> bubble (power: 10)
+技を選べ > 1
+
+プレイヤーの Penguin の攻撃！
+Penguin は tackle を繰り出した
+Penguin に 9 のダメージ！ (HP 17 -> 8)
+
+野生の Penguin の攻撃！
+Penguin は tackle を繰り出した
+Penguin に 9 のダメージ！ (HP 7 -> 0)
+
+プレイヤーの Penguin は倒れた！
+野生の Penguin の勝ち！
 ```
 
 このリポジトリ内にソースコードあるのでよかったら参考にしてください
