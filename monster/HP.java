@@ -1,6 +1,6 @@
 package monster;
 
-public class HP {
+class HP {
     private final int hp;
 
     // マジックナンバーを避け、瀕死の値を表す定数を用意する

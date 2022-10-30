@@ -6,7 +6,7 @@ import skill.Skill;
 
 import java.util.List;
 
-public abstract class BattleMonster extends Monster implements IBattleMonster{
+abstract class BattleMonster extends Monster implements IBattleMonster{
     protected BattleMonster(IMonster monster) {
         super(monster);
     }
