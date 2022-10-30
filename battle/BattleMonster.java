@@ -26,7 +26,7 @@ abstract class BattleMonster extends Monster implements IBattleMonster{
         if(remainHP < 0) remainHP = 0;
         opponent.setHP(remainHP);
         System.out.printf("%s に %d のダメージ！ ", opponent.getName(), damage);
-        System.out.printf("(HP %d -> %d)\n\n", HP, remainHP);
+        System.out.printf("(HP %d -> %d)\n", HP, remainHP);
         System.out.println();
     }
 }
