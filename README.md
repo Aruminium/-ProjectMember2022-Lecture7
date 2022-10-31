@@ -10,6 +10,13 @@
 ![Exercise7](https://user-images.githubusercontent.com/73931800/198674207-d70985fa-759a-4a8e-8faf-c75846d7760e.png)
 ![Exercise7](https://user-images.githubusercontent.com/73931800/198674228-e7885e6e-73be-4285-b5cd-852945ba3b65.png)
 
+## チェックポイント
+
+- [ ] 標準入力での例外処理はできているか
+- [ ] 残りHPより多いダメージを受けた時、HP=0となっているか
+- [ ] アクセス修飾子を活用できているか。(例：HPクラスはプライベートパッケージ)
+- [ ] interfaceをうまく活用して、異なる処理を1つメソッドで実装できているか
+
 ## 実行例
 
 ```shell
