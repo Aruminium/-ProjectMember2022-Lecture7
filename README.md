@@ -10,6 +10,9 @@
 ![Exercise7](https://user-images.githubusercontent.com/73931800/198674207-d70985fa-759a-4a8e-8faf-c75846d7760e.png)
 ![Exercise7](https://user-images.githubusercontent.com/73931800/198674228-e7885e6e-73be-4285-b5cd-852945ba3b65.png)
 
+## 補足
+- MonsterCretorはファクトリーパターン(デザインパターンの1つ)
+
 ## チェックポイント
 
 - [ ] 標準入力での例外処理はできているか
