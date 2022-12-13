@@ -6,9 +6,51 @@
 ※クラス図の構成が(システム的に)正しいとは限りないので、自由に実装してみてください
 
 ![Exercise7](https://user-images.githubusercontent.com/73931800/198674135-fa6aac32-c2e8-43d5-a044-47364ea81147.png)
-![Exercise7](https://user-images.githubusercontent.com/73931800/198861634-ea0426ed-cebb-4a23-8a25-b66e4c8d00df.png)
-![Exercise7](https://user-images.githubusercontent.com/73931800/198674207-d70985fa-759a-4a8e-8faf-c75846d7760e.png)
-![Exercise7](https://user-images.githubusercontent.com/73931800/198674228-e7885e6e-73be-4285-b5cd-852945ba3b65.png)
+![Exercise7](https://user-images.githubusercontent.com/73931800/207304742-97708735-ece0-4928-91f5-39f870b32dab.png)
+![Exercise7](https://user-images.githubusercontent.com/73931800/207304891-674cb2bd-b435-406e-93ab-f98a312fa118.png)
+![Exercise7](https://user-images.githubusercontent.com/73931800/207305059-53f92553-8292-41e0-b2e6-56b70c83876d.png)
+
+モンスターリスト①
+
+|Turtle|Monkey|Penguin|
+|:--:|:--:|:--:|
+|HP:55|HP:44|HP:53|
+|attack:17|attack:14|attack:12|
+|defense:16|defense:11|defense:13|
+|speed:15|speed:31|speed:20|
+
+技リスト
+
+|name|power|
+|:--:|:--:|
+|tackle(たいあたり)|10|
+|scratch(ひっかく)|10|
+|Peck(つつく)|15|
+|razorLeaf(はっぱカッター)|12|
+|ember(ひのこ)|10|
+|bubble(あわ)|10|
+
+モンスターリスト②
+
+|Turtle|Monkey|Penguin|
+|:--:|:--:|:--:|
+|tackle|scratch|Peck|
+|razorLeaf|tackle|tackle|
+|ember	|bubble||
+
+- Exercise7クラスを作成し、mainメソッドを作成しなさい。
+- クラス図で分からない部分があればここを参照し、各自調べなさい。
+- Turtle、Monkey、Penguinの中から気に入った1匹を選択しインスタンス化しなさい。
+- name(名前),hitpoint(体力),attack(攻撃力),block(防御力),speed(素早さ)は引数付きコンストラクタにて初期化しなさい。
+- Monsterのコンストラクタに入れる値は下記のモンスターリスト①を参照しなさい。
+- moveListには下記の技リストを参照しname,powerの要素を持つ技を追加しなさい。
+- 各モンスターが持つ技はモンスターリスト②を参照しなさい。
+- どのモンスターをインスタンス化したのかを分かるように表示させなさい。
+- 野生のモンスターを新たにインスタンス化しなさい。
+- 野生のモンスターは3つの技の中からランダムに1つを選択する。
+- バトルを行う際には、speedが高いモンスターから行動を開始しなさい。
+- ダメージが発生するごとに残りHPを表示させなさい。
+- ここでは、attack+power-block=ダメージとする。
 
 ## 補足
 - MonsterCretorはファクトリーパターン(デザインパターンの1つ)
